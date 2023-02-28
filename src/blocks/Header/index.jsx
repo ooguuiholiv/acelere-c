@@ -44,7 +44,7 @@ export const HContainer = styled.div`
         border-radius: 0.5rem;
         color: black;
         border: none;
-        background: #ffc107;
+        background: var(--green-logo);
         box-shadow: 7px 6px 62px -15px rgba(227, 227, 227, 0.52);
         transition: all ease-in 0.4s;
         cursor: pointer;
@@ -52,7 +52,7 @@ export const HContainer = styled.div`
       button:hover {
         border-radius: 1.3rem;
         transition: all ease-in 0.4s;
-        background: #fec410;
+        background: var(--green-logo);
         color: #f2f2f2;
       }
     }
@@ -67,10 +67,10 @@ export const Header = () => {
           <img src={Logo} alt="" />
         </div>
         <div className="title">
-          <h2>Fique por dentro das maiores tendências do mundo digital</h2>
+          <h2>O maior evento de empreendedorismo e inovação está chegando!</h2>
         </div>
         <div className="subtitle">
-          <p>26, 27 e 28 de Janeiro de 2023 em Recife, Pernambuco</p>
+          <p>7,8 e 9 de Julho de 2023 em Ituiutaba, Minas Gerais</p>
         </div>
         <div className="meet">
           <button>Conheça o evento</button>

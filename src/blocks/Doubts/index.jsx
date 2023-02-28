@@ -23,7 +23,7 @@ export const DoubtContainer = styled.div`
         width: 70px;
         height: 7px;
         border: none;
-        background: #ffc107;
+        background: var(--green-logo);
       }
     }
     #doubts{

@@ -5,7 +5,7 @@ import styled from "styled-components";
 export const TicketContainer = styled.div`
   @media screen and (min-width: 1024px) {
     width: 100vw;
-    height: 100vh;
+    height: 120vh;
     background: black;
     color: white;
     font-family: "Roboto", sans-serif;
@@ -27,16 +27,30 @@ export const TicketContainer = styled.div`
       hr {
         width: 70px;
         height: 7px;
-        background: #ffc107;
+        background: var(--green-logo);
         border: none;
       }
     }
     #card-buy {
       display: flex;
-      align-items: center;
+      align-items: start;
       justify-content: center;
       gap: 3rem;
       .card_box_smart {
+        .info_card {
+          margin: 0.5rem;
+          display: flex;
+          flex-direction: column;
+          height: 90%;
+          justify-content: center;
+          gap: 0.6rem;
+          margin-top: 2rem;
+          p {
+            font-family: "Roboto", sans-serif;
+            text-align: right;
+          }
+        }
+
         width: 200px;
         height: 350px;
         border-radius: 20px;
@@ -74,9 +88,9 @@ export const TicketContainer = styled.div`
         height: 40px;
         background-image: linear-gradient(
           45deg,
-          #ff6547 0%,
-          #ffb144 51%,
-          #ff7053 100%
+          var(--green-logo) 0%,
+          var(--green-logo) 51%,
+          var(--green-logo) 100%
         );
         transform: rotate(-45deg) translateY(-20px);
         display: flex;
@@ -106,8 +120,22 @@ export const TicketContainer = styled.div`
         );
       }
       .card_box_vip {
+        .info_card {
+          margin: 0.5rem;
+          display: flex;
+          flex-direction: column;
+          height: 90%;
+          justify-content: center;
+          gap: 0.6rem;
+          margin-top: 2rem;
+          p {
+            font-family: "Roboto", sans-serif;
+            text-align: right;
+          }
+        }
+
         width: 200px;
-        height: 350px;
+        height: 400px;
         border-radius: 20px;
         background: linear-gradient(
           170deg,
@@ -143,9 +171,9 @@ export const TicketContainer = styled.div`
         height: 40px;
         background-image: linear-gradient(
           45deg,
-          #ff6547 0%,
-          #ffb144 51%,
-          #ff7053 100%
+          var(--green-logo) 0%,
+          var(--green-logo) 51%,
+          var(--green-logo) 100%
         );
         transform: rotate(-45deg) translateY(-20px);
         display: flex;
@@ -175,8 +203,22 @@ export const TicketContainer = styled.div`
         );
       }
       .card_box_premium {
+        .info_card {
+          margin: 0.5rem;
+          display: flex;
+          flex-direction: column;
+          height: 90%;
+          justify-content: center;
+          gap: 0.6rem;
+          margin-top: 4.5rem;
+          p {
+            font-family: "Roboto", sans-serif;
+            text-align: right;
+          }
+        }
+
         width: 200px;
-        height: 350px;
+        height: 450px;
         border-radius: 20px;
         background: linear-gradient(
           170deg,
@@ -212,9 +254,9 @@ export const TicketContainer = styled.div`
         height: 40px;
         background-image: linear-gradient(
           45deg,
-          #ff6547 0%,
-          #ffb144 51%,
-          #ff7053 100%
+          var(--green-logo) 0%,
+          var(--green-logo) 51%,
+          var(--green-logo) 100%
         );
         transform: rotate(-45deg) translateY(-20px);
         display: flex;
@@ -244,8 +286,21 @@ export const TicketContainer = styled.div`
         );
       }
       .card_box_prime {
+        .info_card {
+          margin: 0.5rem;
+          display: flex;
+          flex-direction: column;
+          height: 90%;
+          justify-content: center;
+          gap: 0.6rem;
+          margin-top: 4.5rem;
+          p {
+            font-family: "Roboto", sans-serif;
+            text-align: right;
+          }
+        }
         width: 200px;
-        height: 350px;
+        height: 520px;
         border-radius: 20px;
         background: linear-gradient(
           170deg,
@@ -281,9 +336,9 @@ export const TicketContainer = styled.div`
         height: 40px;
         background-image: linear-gradient(
           45deg,
-          #ff6547 0%,
-          #ffb144 51%,
-          #ff7053 100%
+          var(--green-logo) 0%,
+          var(--green-logo) 51%,
+          var(--green-logo) 100%
         );
         transform: rotate(-45deg) translateY(-20px);
         display: flex;
@@ -333,15 +388,52 @@ export const Ticket = () => {
         <div id="card-buy">
           <div className="card_box_smart">
             <span></span>
+            <div className="info_card">
+              <p>Acesso a todas as palestras </p>
+              <p>Assento na área superior </p>
+              <p>Kit Network</p>
+              <p>Smart Certificado de Participação</p>
+            </div>
           </div>
           <div className="card_box_vip">
             <span></span>
+            <div className="info_card">
+              <p>Acesso a todas as palestras</p>
+              <p>Assento na área inferior</p>
+              <p>Acesso à gravação do evento</p>
+              <p>Kit Network Vip</p>
+              <p>Certificado de Participação</p>
+            </div>
           </div>
           <div className="card_box_premium">
             <span></span>
+            <div className="info_card">
+              <p>Acesso a todas as palestras</p>
+              <p>Acesso a área exclusiva</p>
+              <p>Acesso à gravação do evento</p>
+              <p>Kit Network Premium</p>
+              <p>Sessão Premium (próximo ao palco)</p>
+              <p>Acesso ao Lounge Premium</p>
+              <p>Almoço exclusivo nos três dias do evento</p>
+              <p>Certificado de Participação</p>
+            </div>
           </div>
           <div className="card_box_prime">
             <span></span>
+            <div className="info_card">
+              <p>Acesso a todas as palestras</p>
+              <p>Acesso a área exclusiva</p>
+              <p>Acesso à gravação do evento</p>
+              <p>Kit Network Premium</p>
+              <p>Sessão Premium (próximo ao palco)</p>
+              <p>Acesso ao Lounge Premium</p>
+              <p>Almoço exclusivo nos três dias do evento</p>
+              <p>
+                Participação no Jantar Network Prime, evento <br />
+                exclusivo 8/11
+              </p>
+              <p>Certificado de Participação</p>
+            </div>
           </div>
         </div>
       </TicketContainer>

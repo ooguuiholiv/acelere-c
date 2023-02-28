@@ -7,6 +7,7 @@ import { Ticket } from "../../blocks/Tickets";
 import { HowItIs } from "../../blocks/HowItIs";
 import { Doubt } from "../../blocks/Doubts";
 import { Footer } from "../../blocks/Footer";
+import { Newsletter } from "../../blocks/Newsletter";
 
 export const LandingPage = () => {
     return (
@@ -18,6 +19,7 @@ export const LandingPage = () => {
         <Ticket />
         <HowItIs />
         <Doubt />
+        <Newsletter />
         <Footer />
         </>
     )

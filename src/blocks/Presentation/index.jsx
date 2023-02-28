@@ -21,8 +21,8 @@ export const PresentationContainer = styled.div`
         height: 75vh;
         border-radius: 0.8rem;
         background: #000;
-        box-shadow: 0px 0px 25px #ffc107,
-             -0px 0px 10px #ffc107;
+        box-shadow: 0px 0px 25px var(--green-logo),
+             -0px 0px 10px var(--green-logo);
 }
       }
     }
@@ -35,9 +35,9 @@ export const PresentationContainer = styled.div`
       #meet button{
         display: flex;
         width: 30vw;
-        color: #ffc107;
+        color: var(--green-logo);
         height: 8vh;
-        border: 0.2rem solid #ffc107;
+        border: 0.2rem solid var(--green-logo);
         background: transparent;
         border-radius: 1.5rem;
         justify-content: center;
@@ -49,7 +49,7 @@ export const PresentationContainer = styled.div`
       .title{
         font-size: 45px;
         span{
-            color: #ffc107;
+            color: var(--green-logo);
         }
       }
       .subtitle{
@@ -71,15 +71,15 @@ export const Presentation = () => {
         </div>
         <div id="text-presentation">
           <div className="title">
-            Lorem Ipsum is <span>simply dummy</span>
-            text of the printing and <span>typesetting</span> industry. Lorem
-            Ipsum.
+            Acelere-C é um evento que tem como <span>objetivo </span>
+            fomentar o <span>empreendedorismo e a inovação</span> no Triângulo
+            Mineiro.
           </div>
           <div className="subtitle">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
+            Nos dias 7,8 e 9 de Julho de 2023 teremos uma mega imersão com mais
+            de 30 palestrantes renomados e bem sucedidos. Dentre eles estarão
+            presentes, Flávio Augusto, Marcos Rossi e Rick Chester de renome
+            internacional.
           </div>
           <div id="meet">
             <button>CONHEÇA OS PALESTRANTES</button>

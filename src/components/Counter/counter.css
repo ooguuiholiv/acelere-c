@@ -1,0 +1,17 @@
+.counter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+}
+
+.counter-number{
+    font-family: "Baumans", cursive;
+    font-size: 3.6rem;
+}
+.counter-text{
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+}

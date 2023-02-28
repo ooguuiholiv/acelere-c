@@ -28,7 +28,7 @@ export const ConfirmedContainer = styled.div`
     #title hr {
       width: 70px;
       height: 7px;
-      background: white;
+      background: var(--green-logo);
     }
 
     #carrousel {

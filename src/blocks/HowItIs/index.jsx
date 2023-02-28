@@ -29,44 +29,56 @@ export const HowContainer = styled.div`
       .card {
         width: 20vw;
         height: 20vh;
-        background: #ffc107;
+        background: var(--green-logo);
         border-radius: 1rem;
         display: flex;
         justify-content: center;
         align-items: center;
         color: black;
+        font-family: "Roboto", sans-serif;
+        gap: 0.3rem;
+        p {
+          font-size: 1.2rem;
+          font-weight: 300;
+          color:#3d3d3d;
+        }
+        span {
+          font-size: 3rem;
+          color: white;
+          font-weight: bold;
+        }
       }
     }
     #text {
       margin-top: 2rem;
       font-size: 1.3rem;
       span {
-        color: #ffc107;
+        color: var(--green-logo);
       }
     }
-    #icons{
+    #icons {
+      display: flex;
+      justify-content: center;
+      margin-top: 4rem;
+      gap: 10rem;
+
+      .icons-box {
         display: flex;
-        justify-content: center;
-        margin-top: 4rem;
-        gap: 10rem;
-
-        .icons-box{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            width: 10vw;
-            gap: 0.5rem;
-            p{
-                text-align: center;
-            }
-
-            .icon{
-                width: 10vw;
-                height: 20vh;
-                border-radius: 0.5rem;
-                background: #f2f2f2;
-            }
+        flex-direction: column;
+        align-items: center;
+        width: 10vw;
+        gap: 0.5rem;
+        p {
+          text-align: center;
         }
+
+        .icon {
+          width: 10vw;
+          height: 20vh;
+          border-radius: 0.5rem;
+          background: #f2f2f2;
+        }
+      }
     }
   }
 `;
@@ -76,23 +88,22 @@ export const HowItIs = () => {
     <>
       <HowContainer>
         <div id="title">
-          <h2>Lorem Ipsum</h2>
+          <h2>Nossos Números</h2>
         </div>
         <div id="subtitle">
-          <h4>
-            We don’t serve their kind here! What? Your droids. They’ll have to
-            wait outside. We don’t want them here.
-          </h4>
+          <h4>Conhecimento, tempo de qualidade, negócios e muito network.</h4>
         </div>
         <div id="cards">
           <div className="card">
-            <span>Alguma informação</span>
+            <span>+30</span>
+            <p> palestrantes</p>
           </div>
           <div className="card">
-            <span>Alguma informação</span>
+            <span>52 </span>
+            <p> horas de conteúdo</p>
           </div>
           <div className="card">
-            <span>Alguma informação</span>
+            <span>15</span> <p> Parceiros com Stands</p>
           </div>
         </div>
         <div id="text">
