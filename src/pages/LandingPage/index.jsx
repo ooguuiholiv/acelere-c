@@ -18,7 +18,7 @@ export const LandingPage = () => {
         <Attendance />
         <Ticket />
         <HowItIs />
-        <Doubt />
+        {/* <Doubt /> */}
         <Newsletter />
         <Footer />
         </>

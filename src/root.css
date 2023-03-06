@@ -1,3 +1,6 @@
 :root{
     --green-logo: #86ee39;
 }
+body{
+    overflow-x: hidden;
+}

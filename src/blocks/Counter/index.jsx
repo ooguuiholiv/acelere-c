@@ -5,9 +5,29 @@ import useCountdown from "./../../hooks/useCountdown";
 
 export const CounterContainer = styled.div`
   @media screen and (min-width: 1024px) {
-    width: 100vw;
+    width: 100%;
     height: 25vh;
     background: #1a1a40;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #86ee39;
+  }
+  @media screen and (min-width: 769px) and (max-width: 1023px){
+    width: 100%;
+    height: 25vh;
+    background: #1a1a40;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #86ee39;
+  }
+  @media screen and (max-width: 768px){
+    width: 100%;
+    height: 100%;
+    background: #1a1a40;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     display: flex;
     justify-content: space-evenly;
     align-items: center;

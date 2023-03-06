@@ -31,6 +31,56 @@ export const DoubtContainer = styled.div`
         width: 90%;
     }
   }
+  @media screen and (min-width: 769px) and (max-width: 1023px) {
+    width: 100%;
+    height: 100%;
+    background: black;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 4rem;
+    #title {
+      margin-top: 4rem;
+      font-size: 2.2rem;
+      hr {
+        width: 70px;
+        height: 7px;
+        border: none;
+        background: var(--green-logo);
+      }
+    }
+    #doubts{
+        margin-top: 3rem;
+        width: 90%;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    height: 100%;
+    background: black;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 4rem;
+    #title {
+      margin-top: 4rem;
+      font-size: 1.5rem;
+      hr {
+        width: 70px;
+        height: 7px;
+        border: none;
+        background: var(--green-logo);
+      }
+    }
+    #doubts{
+        margin-top: 3rem;
+        width: 90%;
+    }
+  }
 `;
 
 export const Doubt = () => {

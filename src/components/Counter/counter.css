@@ -1,17 +1,60 @@
-.counter{
+@media screen and (min-width: 1024px) {
+  .counter {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 0.4rem;
-}
+  }
 
-.counter-number{
+  .counter-number {
     font-family: "Baumans", cursive;
     font-size: 3.6rem;
-}
-.counter-text{
+  }
+  .counter-text {
     font-size: 1.1rem;
     text-transform: uppercase;
     font-family: "Roboto", sans-serif;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1023px){
+    .counter{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0.4rem;
+    }
+    
+    .counter-number{
+        font-family: "Baumans", cursive;
+        font-size: 3.6rem;
+    }
+    .counter-text{
+        font-size: 1.1rem;
+        text-transform: uppercase;
+        font-family: "Roboto", sans-serif;
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    .counter{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0.4rem;
+    }
+    
+    .counter-number{
+        font-family: "Baumans", cursive;
+        font-size: 2.2rem;
+    }
+    .counter-text{
+        font-size: 1rem;
+        text-transform: uppercase;
+        font-family: "Roboto", sans-serif;
+    }
+    
 }
