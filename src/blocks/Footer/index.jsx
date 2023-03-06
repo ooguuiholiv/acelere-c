@@ -134,7 +134,7 @@ export const FooterContainer = styled.div`
     .footer {
       margin-bottom: 0.5rem;
       margin-top: 2rem;
-      p{
+      p {
         text-align: center;
         font-size: 1rem;
       }
@@ -208,7 +208,7 @@ export const FooterContainer = styled.div`
     .footer {
       margin-bottom: 0.5rem;
       margin-top: 2rem;
-      p{
+      p {
         text-align: center;
         font-size: 1rem;
       }
@@ -226,7 +226,10 @@ export const Footer = () => {
           </div>
           <div className="endereco">
             <h3>Endereço</h3>
-            <p>Av. 15, 798 - Centro, Ituiutaba - MG, 38300-134</p>
+            <p>
+              Clube de Campo Beira Rio - 38301-115, BR 365, km 752 , Rodovia,
+              Ituiutaba, Minas Gerais,
+            </p>
             <p></p>
             <p></p>
             <p></p>
@@ -234,19 +237,19 @@ export const Footer = () => {
           <div className="fale-conosco">
             <h3>Fale Conosco</h3>
             <p>
-              <img src={Wpp} alt="" /> +55 34 99999-9999
+              <img src={Wpp} alt="" /> +55 34 99868-2292
             </p>
             <p>
-              <img src={Phone} alt="" /> +55 34 99999-9999
+              <img src={Phone} alt="" /> +55 34 99868-2292
             </p>
             <p>
-              <img src={Mail} alt="" /> mail@mail.com.br
+              <img src={Mail} alt="" /> comercial@acelere-c.com.br
             </p>
           </div>
         </div>
         <div className="footer">
           <p>
-            © Copyright Shopdin. Todos os direitos reservados | Desenvolvido por
+            ©Copyright. Todos os direitos reservados | Desenvolvido por
             Oguuiholiv
           </p>
         </div>

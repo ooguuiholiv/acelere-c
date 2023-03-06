@@ -1,5 +1,12 @@
 import React from "react";
 
+import Ic1 from '../../assets/icons/ic1.png'
+import Ic2 from '../../assets/icons/ic2.png'
+import Ic3 from '../../assets/icons/ic3.png'
+import Ic4 from '../../assets/icons/ic4.png'
+import Ic5 from '../../assets/icons/ic5.png'
+import Ic6 from '../../assets/icons/ic6.png'
+
 import styled from "styled-components";
 
 export const HowContainer = styled.div`
@@ -12,6 +19,7 @@ export const HowContainer = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 2rem;
     gap: 1.5rem;
     #title {
       margin-top: 2rem;
@@ -52,20 +60,20 @@ export const HowContainer = styled.div`
     #text {
       margin-top: 2rem;
       font-size: 1.3rem;
-      visibility: collapse;
+      
       span {
         color: var(--green-logo);
       }
     }
     #icons {
-      visibility: collapse;
+      
       display: flex;
       justify-content: center;
       margin-top: 4rem;
       gap: 10rem;
       
       .icons-box {
-        visibility: collapse;
+        
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -79,7 +87,7 @@ export const HowContainer = styled.div`
           width: 10vw;
           height: 20vh;
           border-radius: 0.5rem;
-          background: #f2f2f2;
+          background: transparent;
         }
       }
     }
@@ -136,20 +144,20 @@ export const HowContainer = styled.div`
     #text {
       margin-top: 2rem;
       font-size: 1.3rem;
-      visibility: collapse;
+      
       span {
         color: var(--green-logo);
       }
     }
     #icons {
-      visibility: collapse;
+      
       display: flex;
       justify-content: center;
       margin-top: 4rem;
       gap: 10rem;
       
       .icons-box {
-        visibility: collapse;
+        
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -163,7 +171,7 @@ export const HowContainer = styled.div`
           width: 10vw;
           height: 8vh;
           border-radius: 0.5rem;
-          background: #f2f2f2;
+          background: transparent;
         }
       }
     }
@@ -222,24 +230,24 @@ export const HowContainer = styled.div`
       margin-top: 2rem;
       font-size: 1.3rem;
       text-align: center;
-      visibility: collapse;
+      
       span {
         color: var(--green-logo);
       }
     }
     #icons {
-      visibility: collapse;
+      
       display: flex;
       justify-content: center;
       margin-top: 4rem;
       gap: 5rem;
       
       .icons-box {
-        visibility: collapse;
+        
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 5vw;
+        width: 15vw;
         gap: 0.2rem;
         p {
           text-align: center;
@@ -249,7 +257,7 @@ export const HowContainer = styled.div`
           width: 15vw;
           height: 8vh;
           border-radius: 0.5rem;
-          background: #f2f2f2;
+          background: transparent;
         }
       }
     }
@@ -281,35 +289,47 @@ export const HowItIs = () => {
         </div>
         <div id="text">
           <p>
-            <span>Acelere-c </span>é We don’t serve their kind here! What?
+            <span>Acelere-c </span>é o lugar certo para quem deseja:
           </p>
         </div>
         <div id="icons">
           <div className="icons-box">
-            <div className="icon"></div>
-            <p>Algum icone necessario com informação</p>
+            <div style={{width: '100%', height: 'inherit'}} className="icon">
+              <img style={{width: '100%', borderRadius: '0.4rem'}} src={Ic1} alt="" />
+            </div>
+            <p>Aumentar a interação e o engajamento das suas redes sociais</p>
           </div>
           <div className="icons-box">
-            <div className="icon"></div>
-            <p>Algum icone necessario com informação</p>
+            <div style={{width: '100%', height: 'inherit'}} className="icon">
+            <img style={{width: '100%', borderRadius: '0.4rem'}} src={Ic2} alt="" />
+            </div>
+            <p>Aprender múltiplos sistemas de vendas que só o mundo digital é capaz de te oferecer</p>
           </div>
           <div className="icons-box">
-            <div className="icon"></div>
-            <p>Algum icone necessario com informação</p>
+            <div style={{width: '100%', height: 'inherit'}} className="icon">
+            <img style={{width: '100%', borderRadius: '0.4rem'}} src={Ic3} alt="" />
+            </div>
+            <p>Aumentar a captação de clientes e multiplicar o faturamento da sua empresa</p>
           </div>
         </div>
         <div id="icons">
           <div className="icons-box">
-            <div className="icon"></div>
-            <p>Algum icone necessario com informação</p>
+            <div style={{width: '100%', height: 'inherit'}} className="icon">
+            <img style={{width: '100%', borderRadius: '0.4rem'}} src={Ic4} alt="" />
+            </div>
+            <p>Desenvolver seu primeiro infoproduto e conquistar uma renda extra através da internet</p>
           </div>
           <div className="icons-box">
-            <div className="icon"></div>
-            <p>Algum icone necessario com informação</p>
+            <div style={{width: '100%', height: 'inherit'}} className="icon">
+            <img style={{width: '100%', borderRadius: '0.4rem'}} src={Ic5} alt="" />
+            </div>
+            <p>Fazer lançamentos de 6, 7 e 8 dígitos</p>
           </div>
           <div className="icons-box">
-            <div className="icon"></div>
-            <p>Algum icone necessario com informação</p>
+            <div style={{width: '100%', height: 'inherit'}} className="icon">
+            <img style={{width: '100%', borderRadius: '0.4rem'}} src={Ic6} alt="" />
+            </div>
+            <p>Vender todos os dias na internet</p>
           </div>
         </div>
       </HowContainer>

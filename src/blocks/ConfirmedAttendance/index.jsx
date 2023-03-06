@@ -1,11 +1,36 @@
 import React from "react";
 import { SwiperSlide } from "swiper/react";
 import styled from "styled-components";
+/* Import de imagens */
+import BiancaJunqueira from '../../assets/palestrantes/BiancaJunqueira.jpeg'
+import CamilaAlves from '../../assets/palestrantes/CamilaAlves.jpeg'
+import DanielMarigliano from '../../assets/palestrantes/DanielMarigliano.jpeg'
+import FabioNeto from '../../assets/palestrantes/FabioNeto.jpeg'
+import FlaviaFreitas from '../../assets/palestrantes/FlaviaFreitas.jpeg'
+import HermanoFreitas from '../../assets/palestrantes/HermanoFreitas.jpeg'
+import JohnatanHighlander from '../../assets/palestrantes/JohnatanHighlander.jpeg'
+import JoseLeonardo from '../../assets/palestrantes/JoseLeonardo.jpeg'
+import JoseNascimento from '../../assets/palestrantes/JoseNascimento.jpeg'
+import JulioAlmeida from '../../assets/palestrantes/JulioAlmeida.jpeg'
+import JulioDario from '../../assets/palestrantes/JulioDario.jpeg'
+import LaieneSouza from '../../assets/palestrantes/LaieneSouza.jpeg'
+import LarissaCampos from '../../assets/palestrantes/LarissaCampos.jpeg'
+import LeonardoLeao from '../../assets/palestrantes/LeonardoLeao.jpeg'
+import MarcoAurelio from '../../assets/palestrantes/MarcoAurelio.jpeg'
+import MarcosRossi from '../../assets/palestrantes/MarcosRossi.jpeg'
+import PedroEmboava from '../../assets/palestrantes/PedroEmboava.jpeg'
+import RafaelRibeiro from '../../assets/palestrantes/RafaelRibeiro.jpeg'
+import RickChester from '../../assets/palestrantes/RickChester.jpeg'
+import TiagoBispo from '../../assets/palestrantes/TiagoBispo.jpeg'
+import WagnerSouza from '../../assets/palestrantes/WagnerSouza.jpeg'
 
-import User1 from "../../assets/user1.jpg";
-import User2 from "../../assets/user2.jpg";
-import User3 from "../../assets/user3.jpg";
-import User4 from "../../assets/user4.jpg";
+
+
+
+// import User1 from "../../assets/user1.jpg";
+// import User2 from "../../assets/user2.jpg";
+// import User3 from "../../assets/user3.jpg";
+// import User4 from "../../assets/user4.jpg";
 import Slider from "../../services/Slider";
 
 export const ConfirmedContainer = styled.div`
@@ -169,62 +194,67 @@ export const Attendance = () => {
           <Slider settings={settings}>
             <SwiperSlide>
               <div className="images">
-                <img src={User1} alt="" />
-                <img src={User2} alt="" />
+                <img src={BiancaJunqueira} alt="Bianca Junqueira" />
+                <img src={CamilaAlves} alt="Camila Alves" />
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="images">
-                <img src={User3} alt="" />
-                <img src={User4} alt="" />
+                <img src={DanielMarigliano} alt="Daniel Marigliano" />
+                <img src={FabioNeto} alt="Fabio Neto" />
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="images">
-                <img src={User1} alt="" />
-                <img src={User2} alt="" />
+                <img src={FlaviaFreitas} alt="Flavia Freitas" />
+                <img src={HermanoFreitas} alt="Hermano Freitas" />
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="images">
-                <img src={User3} alt="" />
-                <img src={User4} alt="" />
+                <img src={JohnatanHighlander} alt="Johnatan Highlander" />
+                <img src={JoseLeonardo} alt="Jose Leonardo" />
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="images">
-                <img src={User1} alt="" />
-                <img src={User2} alt="" />
+                <img src={JoseNascimento} alt="Jose Nascimento" />
+                <img src={JulioAlmeida} alt="Julio Almeida" />
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="images">
-                <img src={User3} alt="" />
-                <img src={User4} alt="" />
+                <img src={JulioDario} alt="Julio Dario" />
+                <img src={LaieneSouza} alt="Laiene Sousa" />
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="images">
-                <img src={User1} alt="" />
-                <img src={User2} alt="" />
+                <img src={LarissaCampos} alt="Larissa Campos" />
+                <img src={LeonardoLeao} alt="Leonardo Leao" />
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="images">
-                <img src={User3} alt="" />
-                <img src={User4} alt="" />
+                <img src={MarcoAurelio} alt="Marco Aurelio" />
+                <img src={MarcosRossi} alt="Marcos Rossi" />
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="images">
-                <img src={User1} alt="" />
-                <img src={User2} alt="" />
+                <img src={PedroEmboava} alt="Pedro Emboava" />
+                <img src={RafaelRibeiro} alt="Rafael Ribeiro" />
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="images">
-                <img src={User3} alt="" />
-                <img src={User4} alt="" />
+                <img src={RickChester} alt="Rick Chester" />
+                <img src={TiagoBispo} alt="Tiago Bispo" />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="images">
+                <img src={WagnerSouza} alt="Wagner Souza" />
               </div>
             </SwiperSlide>
           </Slider>

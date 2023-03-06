@@ -364,6 +364,89 @@ export const TicketContainer = styled.div`
           #ff512f 100%
         );
       }
+      .card_box_primePlus {
+        .info_card {
+          margin: 0.5rem;
+          display: flex;
+          flex-direction: column;
+          height: 90%;
+          justify-content: end;
+          gap: 1rem;
+          p {
+            font-family: "Roboto", sans-serif;
+            text-align: right;
+          }
+        }
+
+        width: 14vw;
+        height: 100%;
+        border-radius: 20px;
+        padding-top: 5.2rem;
+        background: linear-gradient(
+          170deg,
+          rgba(58, 56, 56, 0.623) 0%,
+          rgb(31, 31, 31) 100%
+        );
+        position: relative;
+        box-shadow: 0 25px 50px rgba(0, 0, 0, 0.55);
+        cursor: pointer;
+        transition: all 0.3s;
+      }
+
+      .card_box_primePlus:hover {
+        transform: scale(0.9);
+      }
+
+      .card_box_primePlus span {
+        position: absolute;
+        overflow: hidden;
+        width: 150px;
+        height: 150px;
+        top: -10px;
+        left: -10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .card_box_primePlus span::before {
+        content: "prime plus";
+        position: absolute;
+        width: 150%;
+        height: 40px;
+        background-image: linear-gradient(
+          45deg,
+          var(--green-logo) 0%,
+          var(--green-logo) 51%,
+          var(--green-logo) 100%
+        );
+        transform: rotate(-45deg) translateY(-20px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-weight: 600;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.23);
+      }
+
+      .card_box_primePlus span::after {
+        content: "";
+        position: absolute;
+        width: 10px;
+        bottom: 0;
+        left: 0;
+        height: 10px;
+        z-index: -1;
+        box-shadow: 140px -140px #cc3f47;
+        background-image: linear-gradient(
+          45deg,
+          #ff512f 0%,
+          #f09819 51%,
+          #ff512f 100%
+        );
+      }
     }
   }
   @media screen and (min-width: 769px) and (max-width: 1023px) {
@@ -716,6 +799,89 @@ export const TicketContainer = styled.div`
       }
 
       .card_box_prime span::after {
+        content: "";
+        position: absolute;
+        width: 10px;
+        bottom: 0;
+        left: 0;
+        height: 10px;
+        z-index: -1;
+        box-shadow: 140px -140px #cc3f47;
+        background-image: linear-gradient(
+          45deg,
+          #ff512f 0%,
+          #f09819 51%,
+          #ff512f 100%
+        );
+      }
+      .card_box_primePlus {
+        .info_card {
+          margin: 0.5rem;
+          display: flex;
+          flex-direction: column;
+          height: 90%;
+          justify-content: end;
+          gap: 1rem;
+          p {
+            font-family: "Roboto", sans-serif;
+            text-align: right;
+          }
+        }
+
+        width: 20vw;
+        height: 100%;
+        border-radius: 20px;
+        padding-top: 5.2rem;
+        background: linear-gradient(
+          170deg,
+          rgba(58, 56, 56, 0.623) 0%,
+          rgb(31, 31, 31) 100%
+        );
+        position: relative;
+        box-shadow: 0 25px 50px rgba(0, 0, 0, 0.55);
+        cursor: pointer;
+        transition: all 0.3s;
+      }
+
+      .card_box_primePlus:hover {
+        transform: scale(0.9);
+      }
+
+      .card_box_primePlus span {
+        position: absolute;
+        overflow: hidden;
+        width: 150px;
+        height: 150px;
+        top: -10px;
+        left: -10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .card_box_primePlus span::before {
+        content: "prime plus";
+        position: absolute;
+        width: 150%;
+        height: 40px;
+        background-image: linear-gradient(
+          45deg,
+          var(--green-logo) 0%,
+          var(--green-logo) 51%,
+          var(--green-logo) 100%
+        );
+        transform: rotate(-45deg) translateY(-20px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-weight: 600;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.23);
+      }
+
+      .card_box_primePlus span::after {
         content: "";
         position: absolute;
         width: 10px;
@@ -1100,6 +1266,89 @@ export const TicketContainer = styled.div`
           #ff512f 100%
         );
       }
+      .card_box_primePlus {
+        .info_card {
+          margin: 0.5rem;
+          display: flex;
+          flex-direction: column;
+          height: 90%;
+          justify-content: end;
+          gap: 1rem;
+          p {
+            font-family: "Roboto", sans-serif;
+            text-align: right;
+          }
+        }
+
+        width: 50vw;
+        height: 100%;
+        border-radius: 20px;
+        padding-top: 5.2rem;
+        background: linear-gradient(
+          170deg,
+          rgba(58, 56, 56, 0.623) 0%,
+          rgb(31, 31, 31) 100%
+        );
+        position: relative;
+        box-shadow: 0 25px 50px rgba(0, 0, 0, 0.55);
+        cursor: pointer;
+        transition: all 0.3s;
+      }
+
+      .card_box_primePlus:hover {
+        transform: scale(0.9);
+      }
+
+      .card_box_primePlus span {
+        position: absolute;
+        overflow: hidden;
+        width: 150px;
+        height: 150px;
+        top: -10px;
+        left: -10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .card_box_primePlus span::before {
+        content: "prime plus";
+        position: absolute;
+        width: 150%;
+        height: 40px;
+        background-image: linear-gradient(
+          45deg,
+          var(--green-logo) 0%,
+          var(--green-logo) 51%,
+          var(--green-logo) 100%
+        );
+        transform: rotate(-45deg) translateY(-20px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-weight: 600;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.23);
+      }
+
+      .card_box_primePlus span::after {
+        content: "";
+        position: absolute;
+        width: 10px;
+        bottom: 0;
+        left: 0;
+        height: 10px;
+        z-index: -1;
+        box-shadow: 140px -140px #cc3f47;
+        background-image: linear-gradient(
+          45deg,
+          #ff512f 0%,
+          #f09819 51%,
+          #ff512f 100%
+        );
+      }
     }
   }
 `;
@@ -1140,7 +1389,7 @@ export const Ticket = () => {
             >
               ADQUIRA SEU PASSAPORTE
             </button>
-          </div> */}
+          </div>  */}
           <div className="card_box_vip">
             <span></span>
             <div className="info_card">
@@ -1223,6 +1472,38 @@ export const Ticket = () => {
               ADQUIRA SEU PASSAPORTE
             </button>
           </div>
+          <div className="card_box_primePlus">
+            <span></span>
+            <div className="info_card">
+            <p>Acesso a todas as palestras</p>
+              <p>Acesso a área exclusiva</p>
+              <p>Acesso à gravação do evento</p>
+              <p>Kit Network Premium</p>
+              <p>Sessão Premium (próximo ao palco)</p>
+              <p>Acesso ao Lounge Premium</p>
+              <p>Almoço exclusivo nos três dias do evento</p>
+              <p>
+                Participação no Jantar Network Prime, evento <br />
+                exclusivo 8/11
+              </p>
+              <p>Certificado de Participação</p>
+              <p>Mentoria Exclusiva em Grupo com Flávio Augusto e empresários seniores.</p>
+            </div>
+            <button
+              style={{
+                width: "inherit",
+                background: "var(--green-logo)",
+                border: "none",
+                borderRadius: "0.3rem",
+                height: "5vh",
+                fontFamily: "Roboto, sans-serif",
+                color: "white",
+                fontWeight: "bold",
+              }}
+            >
+              ADQUIRA SEU PASSAPORTE
+            </button>
+          </div> 
         </div>
       </TicketContainer>
     </>

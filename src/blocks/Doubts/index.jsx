@@ -26,9 +26,9 @@ export const DoubtContainer = styled.div`
         background: var(--green-logo);
       }
     }
-    #doubts{
-        margin-top: 3rem;
-        width: 90%;
+    #doubts {
+      margin-top: 3rem;
+      width: 90%;
     }
   }
   @media screen and (min-width: 769px) and (max-width: 1023px) {
@@ -51,9 +51,9 @@ export const DoubtContainer = styled.div`
         background: var(--green-logo);
       }
     }
-    #doubts{
-        margin-top: 3rem;
-        width: 90%;
+    #doubts {
+      margin-top: 3rem;
+      width: 90%;
     }
   }
   @media screen and (max-width: 768px) {
@@ -76,9 +76,9 @@ export const DoubtContainer = styled.div`
         background: var(--green-logo);
       }
     }
-    #doubts{
-        margin-top: 3rem;
-        width: 90%;
+    #doubts {
+      margin-top: 3rem;
+      width: 90%;
     }
   }
 `;
@@ -92,87 +92,140 @@ export const Doubt = () => {
           <hr />
         </div>
         <div id="doubts">
-          <Accordion style={{background: '#222222', color: 'white', width: '100%', marginTop: '0.2rem'}}>
+          <Accordion
+            style={{
+              background: "#222222",
+              color: "white",
+              width: "100%",
+              marginTop: "0.2rem",
+            }}
+          >
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel1a-content"
               id="panel1a-header"
             >
-              <Typography>Pergunta 1</Typography>
+              <Typography>O que devo levar?</Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography >
-                resposta da pergunta feita pelo usuario
+              <Typography>
+                Para participar do Acelere-C 2023 é necessário apresentar um
+                documento oficial com foto e o ingresso, impresso ou digital
               </Typography>
             </AccordionDetails>
           </Accordion>
-          <Accordion style={{background: '#222222', color: 'white', width: '100%', marginTop: '0.2rem'}}>
+          <Accordion
+            style={{
+              background: "#222222",
+              color: "white",
+              width: "100%",
+              marginTop: "0.2rem",
+            }}
+          >
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel1a-content"
               id="panel1a-header"
             >
-              <Typography>Pergunta 2</Typography>
+              <Typography>Como será o credenciamento?</Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography >
-                resposta da pergunta feita pelo usuario
+              <Typography>
+                O credenciamento será realizado um dia antes e no dia do evento.
+                O espaço ficará sinalizado na entrada do evento.
               </Typography>
             </AccordionDetails>
           </Accordion>
-          <Accordion style={{background: '#222222', color: 'white', width: '100%', marginTop: '0.2rem'}}>
+          <Accordion
+            style={{
+              background: "#222222",
+              color: "white",
+              width: "100%",
+              marginTop: "0.2rem",
+            }}
+          >
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel1a-content"
               id="panel1a-header"
             >
-              <Typography>Pergunta 3</Typography>
+              <Typography>Terá praça de alimentação?</Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography >
-                resposta da pergunta feita pelo usuario
+              <Typography>
+                O Acelere-C contará com algumas áreas dedicadas à alimentação.
+                Além de lanchonetes espalhadas pelo local, também contaremos com
+                algumas franquias de restaurantes no local do evento.
               </Typography>
             </AccordionDetails>
           </Accordion>
-          <Accordion style={{background: '#222222', color: 'white', width: '100%', marginTop: '0.2rem'}}>
+          <Accordion
+            style={{
+              background: "#222222",
+              color: "white",
+              width: "100%",
+              marginTop: "0.2rem",
+            }}
+          >
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel1a-content"
               id="panel1a-header"
             >
-              <Typography>Pergunta 4</Typography>
+              <Typography>Terá certificado?</Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography >
-                resposta da pergunta feita pelo usuario
+              <Typography>
+                Independente do tipo de ingresso escolhido, você terá direito ao
+                certificado de participação.
               </Typography>
             </AccordionDetails>
           </Accordion>
-          <Accordion style={{background: '#222222', color: 'white', width: '100%', marginTop: '0.2rem'}}>
+          <Accordion
+            style={{
+              background: "#222222",
+              color: "white",
+              width: "100%",
+              marginTop: "0.2rem",
+            }}
+          >
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel1a-content"
               id="panel1a-header"
             >
-              <Typography>Pergunta 5</Typography>
+              <Typography>Como posso organizar a minha viagem?</Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography >
-                resposta da pergunta feita pelo usuario
+              <Typography>
+                O Acelere-C tem pacotes exclusivos em alguns planos e parceiro
+                dos melhores hoteis da cidade. Você pode contar com ajuda a
+                hospedagem. Entre em contato com o WhatsApp 34 99868-2292 ou
+                pelo e-mail comercial@acelere-c.com.br.
               </Typography>
             </AccordionDetails>
           </Accordion>
-          <Accordion style={{background: '#222222', color: 'white', width: '100%', marginTop: '0.2rem'}}>
+          <Accordion
+            style={{
+              background: "#222222",
+              color: "white",
+              width: "100%",
+              marginTop: "0.2rem",
+            }}
+          >
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel1a-content"
               id="panel1a-header"
             >
-              <Typography>Pergunta 6</Typography>
+              <Typography>Como funciona o Prime Plus?</Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography >
-                resposta da pergunta feita pelo usuario
+              <Typography>
+                Com o Prime Plus você terá direito a uma experiência exclusiva
+                em um evento extra do Acelere-C. Você poderá participar de
+                atividades exclusivas e acesso aos palestrantes com uma grande
+                estrutura prepara especial para voc~e Prime Plus.
               </Typography>
             </AccordionDetails>
           </Accordion>

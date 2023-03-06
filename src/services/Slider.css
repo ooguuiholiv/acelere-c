@@ -9,15 +9,15 @@
   }
   
   .swiper-pagination-bullet {
-    background-color: #ffc107;
+    background-color: var(--green-logo);
   }
   
   .swiper-button-prev {
-    color: #ffc107;
+    color: var(--green-logo);
   }
   
   .swiper-button-next {
-    color: #ffc107;
+    color: var(--green-logo);
   }
   
 }
@@ -33,15 +33,15 @@
   }
   
   .swiper-pagination-bullet {
-    background-color: #ffc107;
+    background-color: var(--green-logo);
   }
   
   .swiper-button-prev {
-    color: #ffc107;
+    color: var(--green-logo);
   }
   
   .swiper-button-next {
-    color: #ffc107;
+    color: var(--green-logo);
   }
   
 }
@@ -56,15 +56,15 @@
   }
   
   .swiper-pagination-bullet {
-    background-color: #ffc107;
+    background-color: var(--green-logo);
   }
   
   .swiper-button-prev {
-    color: #ffc107;
+    color: var(--green-logo);
   }
   
   .swiper-button-next {
-    color: #ffc107;
+    color: var(--green-logo);
   }
   
 }

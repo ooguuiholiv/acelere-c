@@ -1,5 +1,5 @@
 import React from "react";
-
+import Sombra from '../../assets/palestrantes/SombraFlavio2.png'
 import styled from "styled-components";
 
 export const PresentationContainer = styled.div`
@@ -181,7 +181,9 @@ export const Presentation = () => {
       <PresentationContainer>
         <div id="picture-presentation">
           <div className="card">
-            <div className="box"></div>
+            <div style={{display: 'flex', width: '100%', height: '100%',alignItems: 'center', justifyContent: 'center'}} className="box">
+              <img src={Sombra} style={{width: '100%', opacity: '0.25'}} alt="" />
+            </div>
           </div>
         </div>
         <div id="text-presentation">
@@ -200,11 +202,11 @@ export const Presentation = () => {
             <button>
               {" "}
               <a
-                href="#presencaConfirmada"
+                href="#"
                 style={{ textDecoration: "inherit", color: "inherit" }}
               >
                 {" "}
-                CONHEÇA OS PALESTRANTES
+                ADQUIRA SEU PASSAPORTE
               </a>
             </button>
           </div>
