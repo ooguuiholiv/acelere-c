@@ -1361,9 +1361,7 @@ export const Ticket = () => {
           <h2>ADQUIRA SEU PASSAPORTE</h2>
         </div>
         <div id="subtitle">
-          <p>
-            Vendas do 1º lote no escuro
-          </p>
+          <p>Vendas do 1º lote no escuro</p>
           <hr />
         </div>
         <div id="card-buy">
@@ -1411,7 +1409,9 @@ export const Ticket = () => {
                 fontWeight: "bold",
               }}
             >
-              ADQUIRA SEU PASSAPORTE
+              <a style={{textDecoration: 'none', color: 'inherit'}} href="https://doity.com.br/acelere-c#registration">
+                ADQUIRA SEU PASSAPORTE
+              </a>
             </button>
           </div>
           <div className="card_box_premium">
@@ -1438,7 +1438,9 @@ export const Ticket = () => {
                 fontWeight: "bold",
               }}
             >
-              ADQUIRA SEU PASSAPORTE
+              <a style={{textDecoration: 'none', color: 'inherit'}} href="https://doity.com.br/acelere-c#registration">
+                ADQUIRA SEU PASSAPORTE
+              </a>
             </button>
           </div>
           <div className="card_box_prime">
@@ -1469,13 +1471,15 @@ export const Ticket = () => {
                 fontWeight: "bold",
               }}
             >
-              ADQUIRA SEU PASSAPORTE
+              <a style={{textDecoration: 'none', color: 'inherit'}} href="https://doity.com.br/acelere-c#registration">
+                ADQUIRA SEU PASSAPORTE
+              </a>
             </button>
           </div>
           <div className="card_box_primePlus">
             <span></span>
             <div className="info_card">
-            <p>Acesso a todas as palestras</p>
+              <p>Acesso a todas as palestras</p>
               <p>Acesso a área exclusiva</p>
               <p>Acesso à gravação do evento</p>
               <p>Kit Network Premium</p>
@@ -1487,7 +1491,7 @@ export const Ticket = () => {
                 exclusivo 8/11
               </p>
               <p>Certificado de Participação</p>
-              <p>Mentoria Exclusiva em Grupo com Flávio Augusto e empresários seniores.</p>
+              <p>Mentoria Exclusiva em Grupo com empresários seniores.</p>
             </div>
             <button
               style={{
@@ -1501,9 +1505,11 @@ export const Ticket = () => {
                 fontWeight: "bold",
               }}
             >
-              ADQUIRA SEU PASSAPORTE
+              <a style={{textDecoration: 'none', color: 'inherit'}} href="https://doity.com.br/acelere-c#registration">
+                ADQUIRA SEU PASSAPORTE
+              </a>
             </button>
-          </div> 
+          </div>
         </div>
       </TicketContainer>
     </>

@@ -206,7 +206,10 @@ export const Presentation = () => {
                 style={{ textDecoration: "inherit", color: "inherit" }}
               >
                 {" "}
+                <a style={{textDecoration: 'none', color: 'inherit'}} href="https://doity.com.br/acelere-c#registration">
+
                 ADQUIRA SEU PASSAPORTE
+                </a>
               </a>
             </button>
           </div>

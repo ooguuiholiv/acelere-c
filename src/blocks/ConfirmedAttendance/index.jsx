@@ -237,24 +237,24 @@ export const Attendance = () => {
             <SwiperSlide>
               <div className="images">
                 <img src={MarcoAurelio} alt="Marco Aurelio" />
-                <img src={MarcosRossi} alt="Marcos Rossi" />
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="images">
                 <img src={PedroEmboava} alt="Pedro Emboava" />
-                <img src={RafaelRibeiro} alt="Rafael Ribeiro" />
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="images">
-                <img src={RickChester} alt="Rick Chester" />
+                <img src={RafaelRibeiro} alt="Rafael Ribeiro" />
                 <img src={TiagoBispo} alt="Tiago Bispo" />
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="images">
                 <img src={WagnerSouza} alt="Wagner Souza" />
+                {/* <img src={RickChester} alt="Rick Chester" /> */}
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="images">
+                {/* <img src={MarcosRossi} alt="Marcos Rossi" /> */}
               </div>
             </SwiperSlide>
           </Slider>

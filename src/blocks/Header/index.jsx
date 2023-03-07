@@ -112,7 +112,7 @@ export const HContainer = styled.div`
       }
     }
   }
-  @media screen and (max-width: 768px){
+  @media screen and (max-width: 768px) {
     width: 100%;
     height: 100%;
     background: black;
@@ -122,12 +122,12 @@ export const HContainer = styled.div`
     justify-content: center;
     align-items: center;
     gap: 1.2rem;
-    .logo{
+    .logo {
       width: 100%;
       display: flex;
       justify-content: center;
-      img{
-        width: 100%
+      img {
+        width: 100%;
       }
     }
     .title {
@@ -192,7 +192,12 @@ export const Header = () => {
           <p>7,8 e 9 de Julho de 2023 em Ituiutaba, Minas Gerais</p>
         </div>
         <div className="meet">
-          <button>ADQUIRA SEU PASSAPORTE</button>
+          <button>
+            <a style={{textDecoration: 'none', color: 'inherit'}} href="https://doity.com.br/acelere-c#registration">
+              {" "}
+              ADQUIRA SEU PASSAPORTE
+            </a>
+          </button>
         </div>
       </HContainer>
     </>
