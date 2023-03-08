@@ -297,19 +297,19 @@ export const HowItIs = () => {
             <div style={{width: '100%', height: 'inherit'}} className="icon">
               <img style={{width: '100%', borderRadius: '0.4rem'}} src={Ic1} alt="" />
             </div>
-            <p>Aumentar a interação e o engajamento das suas redes sociais</p>
+            <p>Crie interação, engajamento e networks</p>
           </div>
           <div className="icons-box">
             <div style={{width: '100%', height: 'inherit'}} className="icon">
             <img style={{width: '100%', borderRadius: '0.4rem'}} src={Ic2} alt="" />
             </div>
-            <p>Aprender múltiplos sistemas de vendas que só o mundo digital é capaz de te oferecer</p>
+            <p>Aprender sistemas de vendas, processos e gestão que só o acelere-c é capaz de te oferecer</p>
           </div>
           <div className="icons-box">
             <div style={{width: '100%', height: 'inherit'}} className="icon">
             <img style={{width: '100%', borderRadius: '0.4rem'}} src={Ic3} alt="" />
             </div>
-            <p>Aumentar a captação de clientes e multiplicar o faturamento da sua empresa</p>
+            <p>Aprenda inovar, captar clientes e multiplicar o faturamento da sua empresa</p>
           </div>
         </div>
         <div id="icons">
@@ -317,19 +317,19 @@ export const HowItIs = () => {
             <div style={{width: '100%', height: 'inherit'}} className="icon">
             <img style={{width: '100%', borderRadius: '0.4rem'}} src={Ic4} alt="" />
             </div>
-            <p>Desenvolver seu primeiro infoproduto e conquistar uma renda extra através da internet</p>
+            <p>Desenvolva seu potencial empreendedor e conquiste novas habilidades</p>
           </div>
           <div className="icons-box">
             <div style={{width: '100%', height: 'inherit'}} className="icon">
             <img style={{width: '100%', borderRadius: '0.4rem'}} src={Ic5} alt="" />
             </div>
-            <p>Fazer lançamentos de 6, 7 e 8 dígitos</p>
+            <p>Tenha acesso a novas oportunidades para seus negócios nas redes sociais</p>
           </div>
           <div className="icons-box">
             <div style={{width: '100%', height: 'inherit'}} className="icon">
             <img style={{width: '100%', borderRadius: '0.4rem'}} src={Ic6} alt="" />
             </div>
-            <p>Vender todos os dias na internet</p>
+            <p>Conecte com negócios e pessoas com propósito</p>
           </div>
         </div>
       </HowContainer>
