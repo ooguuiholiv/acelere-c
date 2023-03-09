@@ -1,5 +1,5 @@
 import React from "react";
-import Sombra from '../../assets/palestrantes/SombraFlavio2.png'
+import Sombra from '../../assets/palestrantes/Flavio2.jpg'
 import styled from "styled-components";
 
 export const PresentationContainer = styled.div`
@@ -74,7 +74,8 @@ export const PresentationContainer = styled.div`
       width: 22.5%;
       .card {
         width: 100%;
-        height: 30vh;
+        height: 100%;
+        padding-top: 4rem;
         border-radius: 0.8rem;
         background: #000;
         box-shadow: 0px 0px 25px var(--green-logo),
@@ -131,7 +132,7 @@ export const PresentationContainer = styled.div`
       width: 45%;
       .card {
         width: 100%;
-        height: 35vh;
+        height: 100%;
         border-radius: 0.8rem;
         background: #000;
         box-shadow: 0px 0px 25px var(--green-logo),
@@ -181,8 +182,8 @@ export const Presentation = () => {
       <PresentationContainer>
         <div id="picture-presentation">
           <div className="card">
-            <div style={{display: 'flex', width: '100%', height: '100%',alignItems: 'center', justifyContent: 'center'}} className="box">
-              <img src={Sombra} style={{width: '100%', opacity: '0.25'}} alt="" />
+            <div style={{display: 'flex', width: '100%', height: '100%',alignItems: 'end', justifyContent: 'center',borderRadius: 'inherit'}} className="box">
+              <img src={Sombra} style={{width: '100%', opacity: '0.75', borderRadius: 'inherit'}} alt="" />
             </div>
           </div>
         </div>
