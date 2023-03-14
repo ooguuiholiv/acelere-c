@@ -23,6 +23,7 @@ import RafaelRibeiro from '../../assets/palestrantes/RafaelRibeiro.jpeg'
 import RickChester from '../../assets/palestrantes/RickChester.jpeg'
 import TiagoBispo from '../../assets/palestrantes/TiagoBispo.jpeg'
 import WagnerSouza from '../../assets/palestrantes/WagnerSouza.jpeg'
+import FlavioAugusto from '../../assets/palestrantes/Flavio2.jpg'
 
 
 
@@ -206,14 +207,14 @@ export const Attendance = () => {
             </SwiperSlide>
             <SwiperSlide>
               <div className="images">
-                <img src={FlaviaFreitas} alt="Flavia Freitas" />
-                <img src={HermanoFreitas} alt="Hermano Freitas" />
+                <img src={FlavioAugusto} alt="Flavio Augusto" />
+                <img src={WagnerSouza} alt="Wagner Souza" />
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="images">
-                <img src={JohnatanHighlander} alt="Johnatan Highlander" />
-                <img src={JoseLeonardo} alt="Jose Leonardo" />
+                <img src={RickChester} alt="Rick Chester" />
+                <img src={MarcosRossi} alt="Marcos Rossi" />
               </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -248,13 +249,14 @@ export const Attendance = () => {
             </SwiperSlide>
             <SwiperSlide>
               <div className="images">
-                <img src={WagnerSouza} alt="Wagner Souza" />
-                {/* <img src={RickChester} alt="Rick Chester" /> */}
+                <img src={HermanoFreitas} alt="Hermano Freitas" />
+                <img src={JohnatanHighlander} alt="Johnatan Highlander" />
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="images">
-                {/* <img src={MarcosRossi} alt="Marcos Rossi" /> */}
+                <img src={JoseLeonardo} alt="Jose Leonardo" />
+                <img src={FlaviaFreitas} alt="Flavia Freitas" />
               </div>
             </SwiperSlide>
           </Slider>

@@ -1,5 +1,5 @@
 import React from "react";
-import Sombra from '../../assets/palestrantes/Flavio2.jpg'
+import Sombra from "../../assets/palestrantes/Flavio2.jpg";
 import styled from "styled-components";
 
 export const PresentationContainer = styled.div`
@@ -182,16 +182,33 @@ export const Presentation = () => {
       <PresentationContainer>
         <div id="picture-presentation">
           <div className="card">
-            <div style={{display: 'flex', width: '100%', height: '100%',alignItems: 'end', justifyContent: 'center',borderRadius: 'inherit'}} className="box">
-              <img src={Sombra} style={{width: '100%', opacity: '0.75', borderRadius: 'inherit'}} alt="" />
+            <div
+              style={{
+                display: "flex",
+                width: "100%",
+                height: "100%",
+                alignItems: "end",
+                justifyContent: "center",
+                borderRadius: "inherit",
+              }}
+              className="box"
+            >
+              <img
+                src={Sombra}
+                style={{
+                  width: "100%",
+                  opacity: "0.75",
+                  borderRadius: "inherit",
+                }}
+                alt=""
+              />
             </div>
           </div>
         </div>
         <div id="text-presentation">
           <div className="title">
-            Acelere-C é um evento que tem como <span>objetivo </span>
-            fomentar o <span>empreendedorismo e a inovação</span> no Triângulo
-            Mineiro.
+            Acelere-C é um evento com <span>objetivo </span> de fomentar o{" "}
+            <span>empreendedorismo e a inovação</span> no Triângulo Mineiro.
           </div>
           <div className="subtitle">
             Nos dias 7,8 e 9 de Julho de 2023 teremos uma mega imersão com mais
@@ -207,9 +224,11 @@ export const Presentation = () => {
                 style={{ textDecoration: "inherit", color: "inherit" }}
               >
                 {" "}
-                <a style={{textDecoration: 'none', color: 'inherit'}} href="https://doity.com.br/acelere-c#registration">
-
-                ADQUIRA SEU PASSAPORTE
+                <a
+                  style={{ textDecoration: "none", color: "inherit" }}
+                  href="https://doity.com.br/acelere-c#registration"
+                >
+                  ADQUIRA SEU PASSAPORTE
                 </a>
               </a>
             </button>
