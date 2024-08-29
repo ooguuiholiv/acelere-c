@@ -193,7 +193,7 @@ export const Header = () => {
         </div>
         <div className="meet">
           <button>
-            <a style={{textDecoration: 'none', color: 'inherit'}} href="https://doity.com.br/acelere-c#registration">
+            <a style={{textDecoration: 'none', color: 'inherit'}} href="">
               {" "}
               ADQUIRA SEU PASSAPORTE
             </a>
