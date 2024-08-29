@@ -200,7 +200,7 @@ export const Doubt = () => {
               <Typography>
                 O Acelere-C tem pacotes exclusivos em alguns planos e parceiro
                 dos melhores hoteis da cidade. Você pode contar com ajuda a
-                hospedagem. Entre em contato com o WhatsApp 34 99868-2292 ou
+                hospedagem. Entre em contato com o WhatsApp 34 99868-0000 ou
                 pelo e-mail comercial@acelere-c.com.br.
               </Typography>
             </AccordionDetails>
