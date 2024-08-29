@@ -1409,7 +1409,7 @@ export const Ticket = () => {
                 fontWeight: "bold",
               }}
             >
-              <a style={{textDecoration: 'none', color: 'inherit'}} href="https://doity.com.br/acelere-c#registration">
+              <a style={{textDecoration: 'none', color: 'inherit'}} href="">
                 ADQUIRA SEU PASSAPORTE
               </a>
             </button>
@@ -1438,7 +1438,7 @@ export const Ticket = () => {
                 fontWeight: "bold",
               }}
             >
-              <a style={{textDecoration: 'none', color: 'inherit'}} href="https://doity.com.br/acelere-c#registration">
+              <a style={{textDecoration: 'none', color: 'inherit'}} href="">
                 ADQUIRA SEU PASSAPORTE
               </a>
             </button>
@@ -1471,7 +1471,7 @@ export const Ticket = () => {
                 fontWeight: "bold",
               }}
             >
-              <a style={{textDecoration: 'none', color: 'inherit'}} href="https://doity.com.br/acelere-c#registration">
+              <a style={{textDecoration: 'none', color: 'inherit'}} href="">
                 ADQUIRA SEU PASSAPORTE
               </a>
             </button>
@@ -1505,7 +1505,7 @@ export const Ticket = () => {
                 fontWeight: "bold",
               }}
             >
-              <a style={{textDecoration: 'none', color: 'inherit'}} href="https://doity.com.br/acelere-c#registration">
+              <a style={{textDecoration: 'none', color: 'inherit'}} href="">
                 ADQUIRA SEU PASSAPORTE
               </a>
             </button>

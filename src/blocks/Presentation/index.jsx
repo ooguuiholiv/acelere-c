@@ -226,7 +226,7 @@ export const Presentation = () => {
                 {" "}
                 <a
                   style={{ textDecoration: "none", color: "inherit" }}
-                  href="https://doity.com.br/acelere-c#registration"
+                  href=""
                 >
                   ADQUIRA SEU PASSAPORTE
                 </a>

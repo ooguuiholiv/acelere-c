@@ -36,7 +36,7 @@ export const CounterContainer = styled.div`
 `;
 
 export const Contador = () => {
-  const [day, hour, minute, second] = useCountdown("Jul 7, 2023 00:00:00");
+  const [day, hour, minute, second] = useCountdown("Jul 7, 2026 00:00:00");
   return (
     <>
       <CounterContainer>

@@ -237,20 +237,20 @@ export const Footer = () => {
           <div className="fale-conosco">
             <h3>Fale Conosco</h3>
             <p>
-              <img src={Wpp} alt="" /> +55 34 99868-2292
+              <img src={Wpp} alt="" /> +55 34 99868-0000
             </p>
             <p>
-              <img src={Phone} alt="" /> +55 34 99868-2292
+              <img src={Phone} alt="" /> +55 34 99868-0000
             </p>
             <p>
-              <img src={Mail} alt="" /> comercial@acelere-c.com.br
+              <img src={Mail} alt="" /> comercial@mail.com.br
             </p>
           </div>
         </div>
         <div className="footer">
           <p>
             ©Copyright. Todos os direitos reservados | Desenvolvido por
-            Oguuiholiv
+            ooguuiholiv
           </p>
         </div>
       </FooterContainer>

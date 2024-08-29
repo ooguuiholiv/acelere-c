@@ -1,0 +1,1 @@
+Acelere-c foi um projeto criado para promover um evento que iria acontecer em minha cidade no ano de 2023, infelizmente devido a inúmera variáveis o evento não aconteceu, porém o site desenvolvido por mim permanece como um trabalho para meu portfólio...A data do contador foi prorrogada para que os recrutadores possam ver o mesmo funcionando.
